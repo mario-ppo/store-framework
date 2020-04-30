@@ -1,0 +1,27 @@
+{
+    "store.custom#landing": { 
+      "blocks": [
+        "image#landingbanner", 
+        "search-result-layout.customQuery"
+      ]
+    },
+    "image#landingbanner": {
+        "props": {
+          "src": "https://www.powerplanetonline.com/cdnassets/_banners/app_descarga_3_mobile-red.png",
+          "minWidth": "100%"
+        }
+      },
+      "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "maxItemsPerPage":8,
+                "hideUnavailableItems": true,
+                "orderByField":"OrderByReleaseDateDESC",
+                "queryField":"Blue Top Retro Camera",
+                "mapField":"ft"
+              }
+            }
+        }
+      }
+  }
