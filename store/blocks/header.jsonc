@@ -38,7 +38,12 @@
             "search-bar",
             "minicart",
             "login"
-        ]
+        ],
+        "props": {
+            "sticky": true,
+            "inverted":true,
+            "fullWidth" : false
+          }
     },
     "header-row#main-mobile": {
         "children": [
